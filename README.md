@@ -13,6 +13,8 @@ so just use the normal resources.swf not the broken ones in the bin folder.
 
 works for the most part.
 
+extract pvzweb_assets.zip contents to resources/src/_assets/
+
 ## Notes
 --------------------------------------------------------------------
 
