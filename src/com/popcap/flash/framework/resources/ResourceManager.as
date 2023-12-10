@@ -16,13 +16,13 @@ package com.popcap.flash.framework.resources
       
       private var mIsLoading:Boolean;
       
-	  [Embed(source = "../../../../../../bin/resources.swf")]
-	  private var mResourceClass:Class;
+	  //[Embed(source = "../../../../../../bin/resources.swf")]
+	  //private var mResourceClass:Class;
 	  
 	 
       private var mLoader:Loader;
       
-      private var mLibrary:PVZResources;
+      private var mLibrary:ResourceLibrary;
       
       private var mApp:AppBase;
       
@@ -88,9 +88,9 @@ package com.popcap.flash.framework.resources
          this.mResources = new Dictionary();
          this.mIsLoading = false;
          this.mLoader = new Loader();
-		 this.mLibrary = new mResourceClass();
-		 //this.mLibrary = new Main.mResourceSWF() as PVZResources;
-		 var a = 1;
+		 //this.mLibrary = new mResourceClass();
+		 this.mLibrary = this.mLoader.content as ResourceLibrary;
+		 //var a = 1;
          //var _loc1_:LoaderInfo = this.mLoader.contentLoaderInfo;
          //_loc1_.addEventListener(Event.COMPLETE,this.handleLibrary);
       }
@@ -102,7 +102,7 @@ package com.popcap.flash.framework.resources
 	  
       private function handleLibrary(param1:Event) : void
       {
-         this.mLibrary = Main.mResourceSWF as PVZResources;
+         this.mLibrary = this.mLoader.content as ResourceLibrary;
          this.mIsLoading = false;
       }
       

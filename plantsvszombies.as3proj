@@ -5,7 +5,7 @@
     <movie outputType="Application" />
     <movie input="" />
     <movie path="bin\plantsvszombies.swf" />
-    <movie fps="30" />
+    <movie fps="60" />
     <movie width="540" />
     <movie height="405" />
     <movie version="27" />

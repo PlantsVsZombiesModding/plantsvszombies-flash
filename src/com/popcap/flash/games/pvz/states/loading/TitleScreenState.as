@@ -168,7 +168,7 @@ package com.popcap.flash.games.pvz.states.loading
          this.startButton.visible = true;
          this.largeStartButton.resize(0,0,this.app.screenWidth,this.app.screenHeight);
          this.app.widgetManager.addWidget(this.startButton);
-         //this.app.resourceManager.loadResourceLibrary("resources.swf");
+         this.app.resourceManager.loadResourceLibrary("resources.swf");
 		 //PVZApp.mPVZResources = new PVZResources();
       }
       

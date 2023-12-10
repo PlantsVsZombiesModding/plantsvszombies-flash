@@ -13,8 +13,8 @@ package
 	public class Main extends PVZFlash 
 	{
 		
-		[Embed(source = "../bin/resources.swf")]
-		public static var mResourceSWF:Class;
+		//[Embed(source = "../bin/resources.swf")]
+		//public static var mResourceSWF:Class;
 		
 		public function Main() 
 		{
