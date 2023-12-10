@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="__Global__"><apiName>__Global__</apiName><apiDetail/><apiClassifier id="globalClassifier:resources"><apiName>resources</apiName><shortdesc>
+	 ...</shortdesc><prolog><author>spaghetto
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 ...
+	 </apiDesc></apiClassifierDetail><apiConstructor id="resources:resources"><apiName>resources</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor></apiClassifier><apiClassifier id="globalClassifier:Main"><apiName>Main</apiName><shortdesc>
+	 ...</shortdesc><prolog><author>spaghetto
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiBaseClassifier>flash.display:Sprite</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 ...
+	 </apiDesc></apiClassifierDetail><apiConstructor id="Main:Main"><apiName>Main</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor></apiClassifier></apiPackage>
