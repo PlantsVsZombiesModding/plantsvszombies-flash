@@ -1,6 +1,6 @@
 # Plants Vs Zombies Web Port Decompile.
 
-### Info
+## Info
 --------------------------------------------------------------------
 
 this was quite honestly hell to set up.
@@ -13,14 +13,15 @@ so just use the normal resources.swf not the broken ones in the bin folder.
 
 works for the most part.
 
-### Notes
+## Notes
 --------------------------------------------------------------------
 
 if you want to help me then DM spaghetto207 on Discord.
+
 also, please don't go pestering me about how to set this up, thanks.
 
-
 ### Links I Used
+--------------------------------------------------------------------
 
 [Flash Player](https://ia904605.us.archive.org/29/items/flashplayer_32_sa_debug_20211030-after/flashplayer_32_sa_debug.exe)
 [Flex SDK](https://dlcdn.apache.org/flex/4.16.1/binaries/apache-flex-sdk-4.16.1-bin.zip)
